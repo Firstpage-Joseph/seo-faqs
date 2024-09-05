@@ -1,0 +1,56 @@
+.seo-faqs {
+    padding: 10px 20px 30px;
+  }
+  .seo-faqs {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+  .seo-content-top a, .seo-content-top  a:link, 
+  .seo-content-top a:visited, .seo-content-top a:hover,
+  .faq-container a, .faq-container a:link, .faq-container a:visited, .faq-container a:hover {
+    text-decoration: underline;
+    font-size:100% !important;
+  }
+  .seo-faqs h3 {
+    cursor: pointer;
+    padding: 10px;
+    margin: 2px 0;
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .seo-faqs div.answers-wrapper {
+    display: none;
+  }
+
+  .seo-faqs div.answers-wrapper {
+    padding: 15px;
+    font-size: 18px;
+  }
+  .seo-faqs .answers-wrapper h4{
+     display: flex;
+  }
+  .seo-faqs .answers-wrapper h4 strong{
+    width:97%;
+  }
+  /* Add your styles here */
+  .seo-faqs .toggle-icon {
+     float: right;
+     cursor: pointer;
+     font-size: 28px;
+     line-height: 25px;
+     margin: 0;
+     padding: 0;
+     margin-top: -7px;
+  }
+  .seo-faqs .toggle-icon.active::before {
+    content: '−'; /* Minus sign for the active state */
+        color: #c79735;
+  }
+
+  .seo-faqs .toggle-icon::before {
+    content: '+'; /* Plus sign for the default state */
+        color: #c79735;
+  }
